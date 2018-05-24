@@ -36,11 +36,24 @@
             <label>Password</label>
             <input type="password" name="pass" placeholder="Password">
           </div>
-          <button class="ui primary labeled icon button" type="submit">
-            <i class="unlock alternate icon"></i>
-            Login
-          </button>
+            <div class="ui grid">
+                <div class="four column row">
+                    <div class="left floated column">
+                    <button class="ui primary labeled icon button" type="submit">
+                        <i class="unlock alternate icon"></i>
+                            Login
+                    </button>
+                    </div>
+                    <div class="right floated column">
+                    <div class="ui green labeled icon button">
+                        <i class="signup icon"></i>
+                            SignUp
+                    </div>
+                    </div>
+                </div>
+            </div>
         </form>
+            
         </div>
       </div>
     </div>
