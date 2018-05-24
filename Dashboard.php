@@ -84,7 +84,7 @@
         </div>
         <div class="four wide column"><div class="ui fluid category search">
             <div class="ui icon input">
-                <input class="prompt" type="text" placeholder="Search animals...">
+                <input class="prompt" type="text" placeholder="Search...">
                     <i class="search icon"></i>
             </div>
             <div class="results"></div>
