@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="Logo Website.png">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
     <link rel="stylesheet" href="/css/master.css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js">
-    
+    <link rel=stylesheet href="js/drop.js">
         
 <link rel="stylesheet" href="style/style.css">
       
@@ -70,7 +70,7 @@
       </div>
     </div>
     <div class="twelve wide column">
-        <div>
+        
         <div class="eight wide column">
             Order By    :
 <div style="width:200px">
@@ -84,15 +84,35 @@
         </div>
         <div class="four wide column"><div class="ui fluid category search">
             <div class="ui icon input">
-                <input class="prompt" type="text" placeholder="Search...">
+                <input class="prompt" type="text" placeholder="Search ...">
                     <i class="search icon"></i>
             </div>
             <div class="results"></div>
             </div>
         </div>
+        <div class="ui link cards">
+    <div class="ui centered card">
+      <div class="image">
+        <img src="/imgsource/bmwm4.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Ivander William</div>
+        <div class="meta">
+          <a>Front End Developer</a>
+        </div>
+        <div class="description">An Indonesian cuisine that tempting </div>
+      </div>
+      <div class="extra content">
+        <span class="center aligned">
+          Joined in 2013
+        </span>
+      </div>
     </div>
   </div>
- </div>
+    </div>
+    
+  </div>
+ 
     </body>
  
 </html>
