@@ -9,22 +9,81 @@
     <title>Log In</title>
   </head>
   <style media="screen">
+  body {
+    width: 100wh;
+    height: 90vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #80DEEA, #4DD0E1, #0097A7, #00838F);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+  .ui.footer.segment {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+  }
 
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
   </style>
   <body>
+    <br>
+    <br>
+    <div class="ui vertical masthead center aligned">
+            <div class="ui center aligned container">
+                <div class="ui large secondary white centered compact menu" style="color:white;">
+                    <a class="active item" style="color:white; font:"SF UI Text";" href="index.html">Home</a>
+                    <a class="item" href="#" style="color:white;">Order</a>
+                    <a class="item" style="color:white;">Gallery</a>
+                    <a class="item" href="signup.html" style="color:white;">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    <br><br><br>
+    <div class="ui centered header" style="font-size:30px; color:white;">
+      Log In To Foodyshark
+    </div>
    <div class="page-login">
   <div class="ui centered grid container">
     <div class="nine wide column">
       <br><br>
-        <div class="ui icon warning message">
-          <i class="lock icon"></i>
-          <div class="content">
-            <div class="header">
-             <br> Login failed!
-            </div>
-            <p>You might have misspelled your username or password!</p>
-          </div>
-        </div>
       <div class="ui fluid card">
         <div class="content">
         <form class="ui form" method="POST">
@@ -38,26 +97,26 @@
           </div>
             <div class="ui grid">
                 <div class="four column row">
-                    <div class="left floated column">
+                    <div class="centered column">
                     <button class="ui primary labeled icon button" type="submit">
                         <i class="unlock alternate icon"></i>
                             Login
                     </button>
                     </div>
-                    <div class="right floated column">
-                    <div class="ui green labeled icon button">
-                        <i class="signup icon"></i>
-                            SignUp
-                    </div>
-                    </div>
                 </div>
             </div>
         </form>
-            
         </div>
       </div>
     </div>
   </div>
 </div>
+<div class="ui footer basic segment" style="height:50px;">
+    <div class="ui container">
+      <p style="color:black;">
+        2018 Foodyshark, All Right Reservered.
+      </p>
+    </div>
+  </div>
   </body>
 </html>

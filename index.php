@@ -12,24 +12,24 @@
   <body>
 <div class="backgroundcolor">
   <!--Header-->
-  <div class="ui inverted large menu">
-    <a class="active item">Home</a>
-    <a class="item">Order</a>
-    <a href="#" class="item">Gallery</a>
-    <a href="#" class="item">About</a>
-<div class="right menu">
-<div class="ui buttons">
-  <button class="ui button login">
-    <a class="ui white" href="login.php" style="color:#03A9F4;">
-      Log In</a>
-  </button>
-    <div class="or"></div>
-    <button class="ui positive button">
-      <a class="ui blue" href="signup.php" style="color:white;">Sign Up</a>
-    </button>
-</div>
-</div>
-</div>
+  <div class="ui inverted vertical masthead center aligned segment">
+          <div class="ui center aligned container">
+              <div class="ui large secondary inverted centered pointing compact menu">
+                  <a class="toc item">
+                      <i class="sidebar icon"></i>
+                  </a>
+                  <a class="active item">Home</a>
+                  <a class="item" href="#">Order</a>
+                  <a class="item">Gallery</a>
+                  <a class="item" href="login.html">Login</a>
+                  <a class="item" href="signup.html">Sign Up</a>
+              </div>
+          </div>
+
+          <div class="ui text container">
+          </div>
+
+      </div>
 <div class="ui centered grid">
 <div class="computer only row">
   <div class="column"></div>
@@ -58,48 +58,51 @@
 <br>
 <br>
 </div>
-  <h1 class="ui left aligned header" style="font-size:70px;">About Us</h1>
+<br><br>
+<div class="ui grid">
+  <div class="four wide column"></div>
+  <div class="four wide column">
+<h1 class="ui left aligned header" style="font-size:70px;">About Us</h1>
+  </div>
+  <div class="four wide column"></div>
+  <div class="four wide column"></div>
+</div>
   <div class="ui grid">
     <div class="three wide column"></div>
-    <div class="three wide column">
-      <div class="ui inverted segment" style="height:300px;">
-        <div class="ui blue centered header" style="font-size:30px;">
-          <div class="ui two column centered grid">
-          <div class="column"></div>
-    <div class="four column centered row">
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    </div>
-  </div>
-          We Serve It Better</div>
-        <p class="centered"style="font-size:15px; text-align:center;">We Care About Satisfy.</p>
+    <div class="three wide column"></div>
       </div>
     </div>
     <div class="three wide column">
       <div class="ui inverted segment" style="height:300px;">
-        <div class="ui blue centered header" style="font-size:30px;"><div class="ui two column centered grid">
-          <div class="column"></div>
-    <div class="four column centered row">
-    <div class="column"></div>
-    <div class="column"></div>
-    <div class="column"></div>
-    </div>
-  </div>
-          Never Forget Moments</div>
-        <p class="centered"style="font-size:15px; text-align:center;">We Care About Satisfy.</p>
-      </div>
+        <br><br>
+        <div class="ui grid">
+          <div class="eight wide centered column">
+              <h1 class="ui header" style="color:#039BE5; font-size:40px;">We Care About Customer Satisfy
+<div class="sub header" style="color:white; font-size:25px;">
+      We always making customer satisfy on number 1 to improve our service quality.
+</div>
+              </h1>
+          </div>
   </div>
   </div>
   <br>
   <!--Gallery-->
+  <div class="ui grid">
+    <div class="four wide column">
+    </div>
+    <div class="four wide column">
   <h1 class="ui left aligned header" style="font-size:70px;">Gallery</h1>
+    </div>
+    <div class="four wide column"></div>
+    <div class="four wide column"></div>
+  </div>
   <br>
   <br>
-  <div class="ui equal width grid">
-    <div class="column">
-      <div class="ui link cards">
+  <br>
+  <br>
+  <div class="ui two column centered grid">
+  <div class="four wide column">
+    <div class="ui link cards">
       <div class="ui centered card">
         <div class="image">
           <img src="/imgsource/friedrice.jpg">
@@ -112,49 +115,65 @@
           <div class="description">An Indonesian cuisine that tempting </div>
         </div>
         <div class="extra content">
-          <span class="center aligned">
-            Since 2013
-          </span>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="column">
-
-    </div>
-    <div class="equal width row">
-      <div class="column">
-
-      </div>
-      <div class="column">
-
-      </div>
+      <span class="center aligned">
+        Rp.15.000
+      </span>
     </div>
   </div>
-    <h1 class="ui left aligned header" style="font-size:70px;">Category</h1>
+</div>
+</div>
+<div class="four wide column">
+  <div class="ui link cards">
+    <div class="ui centered card">
+      <div class="image">
+        <img src="/imgsource/friedrice.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Fried Rice</div>
+        <div class="meta">
+          <a>Steven Hard</a>
+        </div>
+        <div class="description">An Indonesian cuisine that tempting </div>
+      </div>
+      <div class="extra content">
+    <span class="center aligned">
+      Rp.15.000
+    </span>
+  </div>
+</div>
+</div></div>
+<div class="four wide column"></div>
+<div class="four wide column"></div>
+<div class="four wide column"></div>
+<div class="four wide column"></div>
+<div class="four wide column"></div>
+<div class="four wide column"></div>
+</div>
+</div>
+
+  <div class="ui grid">
+    <div class="four wide column"></div>
+    <div class="four wide column">
+  <h1 class="ui left aligned header" style="font-size:70px;">Category</h1>
+    </div>
+    <div class="four wide column"></div>
+    <div class="four wide column"></div>
+  </div>
     <div class="ui link cards">
     <div class="ui centered card">
       <div class="image">
         <img src="/imgsource/bmwm4.jpg">
       </div>
       <div class="content">
-        <div class="header">Ivander William</div>
-        <div class="meta">
-          <a>Front End Developer</a>
-        </div>
+        <div class="header">Indonesian Cuisine</div>
         <div class="description">An Indonesian cuisine that tempting </div>
       </div>
-      <div class="extra content">
-        <span class="center aligned">
-          Joined in 2013
-        </span>
       </div>
     </div>
-  </div>
   <br>
   <br>
   <br>
-  <div class="ui inverted vertical footer segment">
+  <div class="ui inverted vertical footer segment" style="height:250px;">
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
         <div class="three wide column">
@@ -176,7 +195,7 @@
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
+          <h4 class="ui inverted header" style="font-size:30px;">Foodyshak © 2018</h4>
           <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
         </div>
       </div>

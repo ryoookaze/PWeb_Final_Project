@@ -10,7 +10,7 @@
     <title>Sign Up</title>
   </head>
   <body>
-    <style media="screen">
+    <style media="screen" type="text/css">
     body {
     	width: 100wh;
     	height: 90vh;
@@ -21,7 +21,13 @@
     	-moz-animation: Gradient 15s ease infinite;
     	animation: Gradient 15s ease infinite;
     }
-
+    .ui.footer.segment {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      margin-bottom: 0;
+      background-color: #f5f5f5;
+    }
     @-webkit-keyframes Gradient {
     	0% {
     		background-position: 0% 50%
@@ -110,22 +116,8 @@
         </div>
       </div>
     </div>
-
     <div class="ui two column centered grid">
-      <!--Date-->
-      <div class="column">
-        <div class="field">
-          <label style="color:white;">Date</label>
-          <div class="ui calendar" id="example2">
-            <div class="ui input left icon">
-              <i class="calendar icon"></i>
-              <input type="text" placeholder="dd mm yyyy">
-            </div>
-        </div>
-        </div>
-        <br/>
-          </div>
-        </div>
+    </div>
         <div class="ui two column centered grid">
       <div class="column">
         <div class="ui animated white centered button" tabindex="0">
@@ -136,6 +128,13 @@
       </div>
     </div>
   </div>
+  <div class="ui footer basic segment" style="height:50px;">
+      <div class="ui container">
+        <p style="color:black;">
+          2018 Foodyshark, All Right Reservered.
+        </p>
+      </div>
+    </div>
 
   </body>
 </html>
