@@ -32,7 +32,7 @@
             </div>
         </a>
         <br>
-        <a class="item">
+        <a class="item" href="profile.html">
             <div class="left floated column">
                 <i class="user circle big icon"></i>
                     <span style="font-size:20px;">Profile</span>

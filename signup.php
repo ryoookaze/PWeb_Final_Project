@@ -117,6 +117,7 @@
       </div>
     </div>
     <div class="ui two column centered grid">
+
     </div>
         <div class="ui two column centered grid">
       <div class="column">
