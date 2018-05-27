@@ -1,6 +1,3 @@
-<?php
-  $result = $_GET['gordonramsay'];
-?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -75,7 +72,7 @@
 
       </div>
       <div class="column">
-        <img class="ui large centered circular image" src="/imgsource/<?php echo $result; ?>.jpg" width="200px" height="200px">
+        <img class="ui large centered circular image" src="/imgsource/gordonramsay.jpg" width="200px" height="200px">
         <h1 class="ui centered header" id="profname">David Henderson</h1>
           <div class="ui center aligned sub header" style="color:white;">
               Professional Chef
