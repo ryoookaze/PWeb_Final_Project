@@ -2,120 +2,71 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-  <script src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
-    <title>Log In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Logo Website.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+    <link rel="stylesheet" href="/css/master.css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js">
+    <link rel=stylesheet href="js/drop.js">
+<link rel="stylesheet" href="style/style.css">
+    <title>Foodyshark - Home</title>
   </head>
-  <style media="screen">
-  body {
-    width: 100wh;
-    height: 90vh;
-    color: #fff;
-    background: linear-gradient(-45deg, #80DEEA, #4DD0E1, #0097A7, #00838F);
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-  }
-  .ui.footer.segment {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 0;
-    background-color: #f5f5f5;
-  }
-
-  @-webkit-keyframes Gradient {
-    0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
-    }
-    100% {
-      background-position: 0% 50%
-    }
-  }
-
-  @-moz-keyframes Gradient {
-    0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
-    }
-    100% {
-      background-position: 0% 50%
-    }
-  }
-
-  @keyframes Gradient {
-    0% {
-      background-position: 0% 50%
-    }
-    50% {
-      background-position: 100% 50%
-    }
-    100% {
-      background-position: 0% 50%
-    }
-  }
-  </style>
-  <body>
-    <br>
-    <br>
-    <div class="ui vertical masthead center aligned">
-            <div class="ui center aligned container">
-                <div class="ui large secondary white centered compact menu" style="color:white;">
-                    <a class="active item" style="color:white; font:"SF UI Text";" href="index.php">Home</a>
-                    <a class="item" href="#" style="color:white;">Order</a>
-                    <a class="item" style="color:white;">Gallery</a>
-                    <a class="item" href="signup.html" style="color:white;">Sign Up</a>
-                </div>
+  <br>
+  <h1 class="ui centered aligned header" style="font-size:40px; color:#039BE5;">Order Your Food</h1>
+  <br>
+  <div class="ui grid">
+    <div class="four wide column">
+      <div class="ui secondary vertical fluid menu" >
+        <a class="item">
+            <div class="left floated column">
+                <i class="home big icon"></i>
+                    <span style="font-size:20px;">Home</span>
             </div>
-        </div>
-    <br><br><br>
-    <div class="ui centered header" style="font-size:30px; color:white;">
-      Log In To Foodyshark
+        </a>
+        <br>
+        <a class="item">
+            <div class="left floated column">
+                <i class="utensils big icon"></i>
+                    <span style="font-size:20px;">Order</span>
+            </div>
+        </a>
+        <br>
+        <a class="item" href="profile.php">
+            <div class="left floated column">
+                <i class="user circle big icon"></i>
+                    <span style="font-size:20px;">Profile</span>
+            </div>
+        </a>
+        <br>
+        <a class="item">
+            <div class="left floated column">
+                <i class="info circle big icon"></i>
+                    <span style="font-size:20px">About</span>
+            </div>
+        </a>
+        <br>
+        <a class="item" href="confirmationpage.html">
+            <div class="left floated column">
+                <i class="shopping cart big icon"></i>
+                    <span style="font-size:20px;">Cart</span>
+            </div>
+        </a>
+      </div>
     </div>
-   <div class="page-login">
-  <div class="ui centered grid container">
-    <div class="nine wide column">
-      <br><br>
-      <div class="ui fluid card">
-        <div class="content">
-        <form class="ui form" method="POST">
-          <div class="field">
-            <label>User</label>
-            <input type="text" name="user" placeholder="User">
-          </div>
-          <div class="field">
-            <label>Password</label>
-            <input type="password" name="pass" placeholder="Password">
-          </div>
-            <div class="ui grid">
-                <div class="four column row">
-                    <div class="centered column">
-                    <button class="ui primary button" type="submit">
-                            <a href="dashboard.php">Log In</a>
-                    </button>
-                    </div>
-                </div>
+    <div class="twelve wide column">
+  <div class="eight wide column">
+            Order By    :
+            <div class="ui selection dropdown">
+              <input type="hidden" name="gender">
+              <i class="dropdown icon"></i>
+              <div class="default text">Gender</div>
+              <div class="menu">
+                <div class="item" data-value="1">Male</div>
+                <div class="item" data-value="0">Female</div>
+              </div>
             </div>
-        </form>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="ui footer basic segment" style="height:50px;">
-    <div class="ui container">
-      <p style="color:black;">
-        2018 Foodyshark, All Right Reservered.
-      </p>
-    </div>
-  </div>
-  </body>
+    </body>
+
 </html>

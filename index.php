@@ -140,11 +140,11 @@
   </div>
   <br>
   <!--Gallery-->
+  <h1 class="ui left aligned header" style="font-size:70px; text-align :center;">Gallery</h1>
   <div class="ui grid">
     <div class="four wide column">
     </div>
     <div class="four wide column">
-  <h1 class="ui left aligned header" style="font-size:70px; text-align :center;">Gallery</h1>
 </div>
 <div class="container">
 <div class="gallery">
@@ -158,17 +158,169 @@
 </div>
   </div>
       <h1 class="ui left aligned header" style="font-size:70px; text-align:center;">Category</h1>
-    <div class="ui link cards">
-    <div class="ui centered card">
-      <div class="image">
-        <img src="/imgsource/bmwm4.jpg">
+      <br><br>
+      <div class="ui inverted stackable four column grid">
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/nasipadang.jpg">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Ethnic Cuisine</a></div>
+              <div class="description">An Indonesian cuisine that tempting </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/chickensteak.jpg" width="1920" height="1080">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Western Cuisine</a></div>
+              <div class="description">Western Cuisine, you'll never die</div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/chinesecuisine.jpg" width="1920" height="1080">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Chinese Cuisine</a></div>
+              <div class="description">Asian's most delightful cuisine </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/japanesecuisine.jpg" width="1920" height="1080">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Japanese Cuisine</a></div>
+              <div class="description">King of Asia, tempting your tounge </div>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="content">
-        <div class="header">Indonesian Cuisine</div>
-        <div class="description">An Indonesian cuisine that tempting </div>
+      <div class="ui stackable four column grid">
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/bakery.jpg" width="1920" height="1080">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Breads</a></div>
+              <div class="description">An Indonesian cuisine that tempting </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/chicken.jpg" width="1920" height="1080">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Chicken & Ducks</a></div>
+              <div class="description">Crunchy Chicken and Ducks </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/junkfood.jpg" width="1920" height="1080">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Fast Food</a></div>
+              <div class="description">If you want to gain weight </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/localcuisine.jpg">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Local Cuisine</a></div>
+              <div class="description">Taste Indonesian best </div>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="ui stackable four column grid">
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/pizza.jpg">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Pizza & Pasta</a></div>
+              <div class="description">Best western fast food </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/soto.jpg">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Brothfood</a></div>
+              <div class="description">An Indonesian cuisine that tempting </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/drinks.jpg">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Drinks and Beverages</a> </div>
+              <div class="description">An Indonesian cuisine that tempting </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui link cards">
+          <div class="ui centered card">
+            <div class="image">
+              <img src="imgsource/brownies.jpg">
+            </div>
+            <div class="content">
+              <div class="header"><a href="#">Others</a> </div>
+              <div class="description">An Indonesian cuisine that tempting </div>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   <br>
   <br>
   <br>
@@ -194,7 +346,7 @@
           </div>
         </div>
         <div class="seven wide column">
-          <h4 class="ui inverted header" style="font-size:30px;">Foodyshak © 2018</h4>
+          <h4 class="ui inverted header" style="font-size:30px;">Foodyshark © 2018</h4>
           <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
         </div>
       </div>
