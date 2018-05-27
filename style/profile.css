@@ -3,6 +3,10 @@ body
   font: 'Gotham';
   background-color: #039BE5;
 }
+#profname
+{
+  color:white;
+}
 .welcometofp
 {
   font-family: 'Gotham';
@@ -38,7 +42,10 @@ body
 {
   color: #1565C0;
 }
-
+.sidenav a:active
+{
+  color:white;
+}
 .sidenav .closebtn
 {
   position: absolute;

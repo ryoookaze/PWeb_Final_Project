@@ -7,9 +7,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
     <link rel="stylesheet" href="/css/master.css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js">
     <link rel=stylesheet href="js/drop.js">
-
 <link rel="stylesheet" href="style/style.css">
-
     <title>Foodyshark - Home</title>
   </head>
   <br>
@@ -32,7 +30,7 @@
             </div>
         </a>
         <br>
-        <a class="item" href="profile.html">
+        <a class="item" href="profile.php">
             <div class="left floated column">
                 <i class="user circle big icon"></i>
                     <span style="font-size:20px;">Profile</span>
@@ -46,7 +44,7 @@
             </div>
         </a>
         <br>
-        <a class="item">
+        <a class="item" href="confirmationpage.html">
             <div class="left floated column">
                 <i class="shopping cart big icon"></i>
                     <span style="font-size:20px;">Cart</span>
