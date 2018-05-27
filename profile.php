@@ -72,11 +72,26 @@
 
       </div>
       <div class="column">
-        <img class="ui large centered circular image" src="/imgsource/gordonramsay.jpg" width="200px" height="200px">
-        <h1 class="ui centered header" id="profname">David Henderson</h1>
-          <div class="ui center aligned sub header" style="color:white;">
-              Professional Chef
-          </div>
+        <div class="ui card">
+<div class="image">
+  <img src="imgsource/gordonramsay.jpg">
+</div>
+<div class="content">
+  <a class="header">Go</a>
+  <div class="meta">
+    <span class="date">Joined in 2013</span>
+  </div>
+  <div class="description">
+    Kristy is an art director living in New York.
+  </div>
+</div>
+<div class="extra content">
+  <a>
+    <i class="user icon"></i>
+    22 Friends
+  </a>
+</div>
+</div
       </div>
       <div class="column">
       </div>
@@ -98,15 +113,16 @@
         <a href="#">Cart</a>
       <br>
         <a href="#">About</a>
-    <div class="ui footer basic segment" style="height:50px;">
-        <div class="ui container">
-          <p style="color:white;">
-            2018 Foodyshark, All Right Reservered.
-          </p>
-        </div>
+
+  </div>
+  </div>
+  <div class="ui footer basic segment" style="height:50px;">
+      <div class="ui container">
+        <p style="color:white;">
+          2018 Foodyshark, All Right Reservered.
+        </p>
       </div>
-  </div>
-  </div>
+    </div>
   <!--Sidebar-->
     <span style="font-size:20px; cursor:pointer; padding:30px; position:fixed;" onclick="openNav()">&#9776;</span>
   <script>

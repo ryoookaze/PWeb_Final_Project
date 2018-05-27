@@ -30,7 +30,7 @@
             </div>
         </a>
         <br>
-        <a class="item" href="profile.html">
+        <a class="item" href="profile.php">
             <div class="left floated column">
                 <i class="user circle big icon"></i>
                     <span style="font-size:20px;">Profile</span>

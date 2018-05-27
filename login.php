@@ -69,7 +69,7 @@
     <div class="ui vertical masthead center aligned">
             <div class="ui center aligned container">
                 <div class="ui large secondary white centered compact menu" style="color:white;">
-                    <a class="active item" style="color:white; font:"SF UI Text";" href="index.html">Home</a>
+                    <a class="active item" style="color:white; font:"SF UI Text";" href="index.php">Home</a>
                     <a class="item" href="#" style="color:white;">Order</a>
                     <a class="item" style="color:white;">Gallery</a>
                     <a class="item" href="signup.html" style="color:white;">Sign Up</a>
@@ -99,7 +99,7 @@
                 <div class="four column row">
                     <div class="centered column">
                     <button class="ui primary button" type="submit">
-                            <a href="dashboard.html">Log In</a>
+                            <a href="dashboard.php">Log In</a>
                     </button>
                     </div>
                 </div>

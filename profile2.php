@@ -4,24 +4,92 @@
 
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+<link rel="stylesheet" href="/css/master.css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.3/semantic.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="js/Profile2.js"></script>
 <link href="style/style2.css">
-<!------ Include the above in your HEAD tag ---------->
 </head>
-<body>
+<body onload="startTime()">
+<style media="screen">
+body {
+  width: 100wh;
+  height: 90vh;
+  background: linear-gradient(-45deg, #80DEEA, #4DD0E1, #0097A7, #00838F);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+.ui.footer.segment {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+  background-color: #f5f5f5;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+</style>
+  <div class="ui inverted vertical masthead center aligned segment">
+          <div class="ui center aligned container">
+              <div class="ui large secondary inverted centered pointing compact menu">
+                  <a class="toc item">
+                  </a>
+                  <a class="item">Home</a>
+                  <a class="item" href="#">Order</a>
+                  <a class="item" href="dashboard.php">Back</a>
+                  <a class="item login" id="testing" href="login.php">Log Out</a>
+              </div>
+          </div>
+          <div class="ui text container">
+          </div>
+      </div>
 <div class="container">
       <div class="row">
       <div class="col-md-5  toppad  pull-right col-md-offset-3 ">
-           <A href="edit.html" >Edit Profile</A>
-
-        <A href="edit.html" >Logout</A>
        <br>
-<p class=" text-info">May 05,2014,03:00 pm </p>
+<div id="jamdinding"></div>
       </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
-   
-   
+
+
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title">Sally</h3>
@@ -29,7 +97,7 @@
             <div class="panel-body">
               <div class="row">
                 <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="imgsource/bakery.jpg" class="img-circle img-responsive"> </div>
-                
+
                 <!--<div class="col-xs-10 col-sm-10 hidden-md hidden-lg"> <br>
                   <dl>
                     <dt>DEPARTMENT:</dt>
@@ -42,7 +110,7 @@
                     <dd>Male</dd>
                   </dl>
                 </div>-->
-                <div class=" col-md-9 col-lg-9 "> 
+                <div class=" col-md-9 col-lg-9 ">
                   <table class="table table-user-information">
                     <tbody>
                       <tr>
@@ -57,7 +125,7 @@
                         <td>Date of Birth</td>
                         <td>01/24/1988</td>
                       </tr>
-                   
+
                          <tr>
                              <tr>
                         <td>Gender</td>
@@ -76,27 +144,32 @@
                         <td>123-4567-890(Landline)<br><br>555-4567-890(Mobile)
                         </td>
                       </tr>
-                     
+
                     </tbody>
                   </table>
-        
+
                 </div>
               </div>
             </div>
                  <div class="panel-footer">
-                        <a href="edit.html" data-original-title="Edit this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i></a>
-                            <a data-original-title="Remove this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
+                        <a href="#">Edit Profile</a>
                         <span class="pull-right">
-                            
+
                         </span>
                     </div>
-            
+
           </div>
         </div>
       </div>
     </div>
-    
-    
-    
+    <div class="ui footer basic segment" style="height:50px;">
+        <div class="ui container">
+          <p style="color:black;">
+            2018 Foodyshark, All Right Reservered.
+          </p>
+        </div>
+      </div>
+
+
   </body>
 </html>

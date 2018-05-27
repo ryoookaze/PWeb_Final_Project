@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="Logo Website.png">
-   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+  <!--  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
     <link rel="stylesheet" href="/css/master.css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.3/semantic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.3/semantic.min.js"></script>-->
     <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-Master/semantic.min.css">
     <script src="Semantic-UI-CSS-Master/semantic.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script>
+
     $(document).ready(function(){
         $('.login').click(function(){
            $('#coba').modal('show');
@@ -32,7 +33,7 @@
                   </a>
                   <a class="active item">Home</a>
                   <a class="item" href="#">Order</a>
-                  <a class="item login" id="testing">Login</a>
+                  <a class="item login" id="testing" href="login.php">Log In</a>
                   <a class="item" href="signup.html">Sign Up</a>
               </div>
           </div>
