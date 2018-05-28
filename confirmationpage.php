@@ -14,6 +14,13 @@
     {
       font-size: 40px;
     }
+    .ui.footer.segment
+    {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      margin-bottom: 0;
+    }
   </style>
   <body>
     <div class="ui inverted vertical masthead center aligned segment">
@@ -23,6 +30,7 @@
                     </a>
                     <a class="item">Home</a>
                     <a class="item" href="#">Order</a>
+                    <a href="#" class="item">About</a>
                     <a class="item login" id="testing" href="login.php">Log Out</a>
                 </div>
             </div>
@@ -83,5 +91,20 @@
   <div class="column">
   </div>
 </div>
+<br><br>
+<div class="ui center aligned grid">
+  <div class="ui centered buttons">
+    <button class="ui button">Accept</button>
+    <div class="or"></div>
+    <button class="ui positive button">Cancel</button>
+  </div>
+</div>
+<div class="ui footer inverted basic segment" style="height:50px;">
+    <div class="ui container">
+      <p style="color:white;">
+        2018 Foodyshark, All Right Reservered.
+      </p>
+    </div>
+  </div>
   </body>
 </html>
