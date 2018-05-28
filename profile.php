@@ -38,7 +38,7 @@
                       <a class="active item" style="color:white; font:"SF UI Text";" href="index.html">Home</a>
                       <a class="item" href="#" style="color:white;">Order</a>
                       <a class="item" href="#" style="color:white;">Profile</a>
-                      <a class="item" href="signup.html" style="color:white;">Log Out</a>
+                      <a class="item" href="login.php" style="color:white;">Log Out</a>
 
                   </div>
               </div>

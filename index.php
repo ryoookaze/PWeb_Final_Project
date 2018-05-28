@@ -71,7 +71,7 @@
                   <div class="four column row">
                       <div class="centered column">
                       <button class="ui primary button" type="submit">
-                              <a href="dashboard.html">Log In</a>
+                              <a href="login.php">Log In</a>
                       </button>
                       </div>
                   </div>
@@ -112,10 +112,10 @@
 <br>
 </div>
 <br><br>
+<h1 class="ui left aligned header" style="font-size:70px; text-align:center;">About Us</h1>
 <div class="ui grid">
   <div class="four wide column"></div>
   <div class="four wide column">
-<h1 class="ui left aligned header" style="font-size:70px;">About Us</h1>
   </div>
   <div class="four wide column"></div>
   <div class="four wide column"></div>

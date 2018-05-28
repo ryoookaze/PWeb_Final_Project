@@ -16,12 +16,11 @@
       background-color: #f5f5f5;
     }
     </style>
-    <div class="ui vertical masthead center aligned">
+    <div class="ui vertical masthead center aligned segment">
             <div class="ui center aligned container">
                 <div class="ui large secondary white centered compact menu" style="color:white;">
                     <a class="active item" style="color:black; font:"SF UI Text";" href="index.html">Home</a>
                     <a class="item" href="#" style="color:black;">Order</a>
-                    <a class="item" style="color:black;">Gallery</a>
                     <a class="item" href="login.html" style="color:black;">Log In</a>
                 </div>
             </div>
@@ -36,9 +35,9 @@
         <button class="ui blue button">Sign Up As Admin</button>
       </div>
     </div>
-    <div class="ui footer inverted basic segment" style="height:100px;">
+    <div class="ui footer inverted basic segment">
         <div class="ui container">
-          <p style="color:white; text-align:center; font-size:20px;">
+          <p style="color:white; text-align:center;">
             2018 Foodyshark, All Right Reservered.
           </p>
         </div>
