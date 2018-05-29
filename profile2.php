@@ -67,20 +67,52 @@ body {
   }
 }
 </style>
-  <div class="ui inverted vertical masthead center aligned segment">
-          <div class="ui center aligned container">
-              <div class="ui large secondary inverted centered pointing compact menu">
-                  <a class="toc item">
-                  </a>
-                  <a class="item">Home</a>
-                  <a class="item" href="#">Order</a>
-                  <a class="item" href="dashboard.php">Back</a>
-                  <a class="item login" id="testing" href="login.php">Log Out</a>
-              </div>
+<div class="ui grid" style="padding : 50px 0px;">
+  <div class="four wide column">
+    <div class="ui secondary vertical fluid menu">
+      <a class="item">
+          <div class="left floated column">
+              <i class="home big icon" style="color:white;"></i>
+                  <span style="font-size:20px; color:white;">Home</span>
           </div>
-          <div class="ui text container">
+      </a>
+      <br>
+      <a class="item">
+          <div class="left floated column">
+              <i class="utensils big icon" style="color:white;"></i>
+                  <span style="font-size:20px; color:white;">Order</span>
           </div>
-      </div>
+      </a>
+      <br>
+      <a class="item" href="profile.php">
+          <div class="left floated column">
+              <i class="user circle big icon"></i>
+                  <span style="font-size:20px;">Profile</span>
+          </div>
+      </a>
+      <br>
+      <a class="item">
+          <div class="left floated column">
+              <i class="info circle big icon"></i>
+                  <span style="font-size:20px">About</span>
+          </div>
+      </a>
+      <br>
+      <a class="item" href="confirmationpage.html">
+          <div class="left floated column">
+              <i class="shopping cart big icon"></i>
+                  <span style="font-size:20px;">Cart</span>
+          </div>
+      </a>
+      <br>
+      <a class="item">
+          <div class="left floated column">
+            <i class="shopping cart big icon"></i>
+                <span style="font-size:20px">Log Out</span>
+          </div>
+      </a>
+    </div>
+  </div>
 <div class="container">
       <div class="row">
       <div class="col-md-5  toppad  pull-right col-md-offset-3 ">
@@ -152,7 +184,7 @@ body {
               </div>
             </div>
                  <div class="panel-footer">
-                        <a href="#">Edit Profile</a>
+                        <a href="profileedit.php">Edit Profile</a>
                         <span class="pull-right">
 
                         </span>
