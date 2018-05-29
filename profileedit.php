@@ -18,8 +18,13 @@
     }
     input[type=file]
     {
-      background-color : white;
-      color:green;
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
     }
   </style>
   <header>
@@ -74,7 +79,7 @@
     <div class="twelve wide column">
       <br>
       <form action="upload.php" method="POST" enctype="multipart/form-data">
-        <input type="file" name="file">
+        <input type="file" name="file" value="Choose">
         <button type="submit" name="button" class="ui blue button">UPLOAD</button>
       </form>
       <form class="ui form" action="index.html" method="post" style="width:400px;">
