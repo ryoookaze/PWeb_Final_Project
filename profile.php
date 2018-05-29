@@ -25,7 +25,6 @@
     }
     .styleNav
     {
-
       position: fixed;
     }
     </style>

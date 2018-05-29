@@ -39,10 +39,8 @@
                   <a class="item" href="signup.html">Sign Up</a>
               </div>
           </div>
-
           <div class="ui text container">
           </div>
-
       </div>
 
 <div class="pricing-1 section-image">

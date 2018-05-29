@@ -16,13 +16,15 @@
       padding : 30px 0px;
       background-color: #0288D1;
     }
+    input[type=file]
+    {
+      background-color : white;
+      color:green;
+    }
   </style>
   <header>
     <h1 class="ui centered aligned header" style="font-size:40px; color:white;">Edit Profile</h1>
   </header>
-
-  <br>
-
   <div class="ui grid">
     <div class="four wide column">
       <div class="ui secondary vertical fluid menu">
@@ -70,6 +72,11 @@
       </div>
     </div>
     <div class="twelve wide column">
+      <br>
+      <form action="upload.php" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit" name="button" class="ui blue button">UPLOAD</button>
+      </form>
       <form class="ui form" action="index.html" method="post" style="width:400px;">
         <div class="input-group">
           <label for="">Name</label>
