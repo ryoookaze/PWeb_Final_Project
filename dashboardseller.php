@@ -51,6 +51,13 @@
                     <span style="font-size:20px;">Cart</span>
             </div>
         </a>
+        <br>
+        <a class="item">
+            <div class="left floated column">
+              <i class="shopping cart big icon"></i>
+                  <span style="font-size:20px">Log Out</span>
+            </div>
+        </a>
       </div>
     </div>
     <div class="twelve wide column">
@@ -80,6 +87,10 @@
         <br>
         <div class="column">
           <button type="button" name="button" class="ui blue button">Transaction Log</button>
+        </div>
+        <br>
+        <div class="column">
+          <button type="button" name="button" class="ui blue button">Add Menus</button>
         </div>
       </div>
     </div>

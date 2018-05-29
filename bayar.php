@@ -18,13 +18,22 @@
     </head>
 
 <body>
+  <style media="screen">
+  .ui.footer.segment
+  {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  </style>
 <div class="ui inverted vertical masthead center aligned segment">
           <div class="ui center aligned container">
               <div class="ui large secondary inverted centered pointing compact menu">
                   <a class="toc item">
                       <i class="sidebar icon"></i>
                   </a>
-                  <a class="active item">Home</a>
+                  <a class="item">Home</a>
                   <a class="item" href="#">Order</a>
                   <a class="item login" id="testing">Login</a>
                   <a class="item" href="signup.html">Sign Up</a>
@@ -34,10 +43,9 @@
           <div class="ui text container">
           </div>
 
-      </div>    
-    
-<div class="pricing-1 section-image">
+      </div>
 
+<div class="pricing-1 section-image">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center">
@@ -94,11 +102,10 @@
                                 <br>
                                 4 days of Full course Food
                             </p>
-							<a href="#pablo" class="btn btn-white btn-round">Choose Plan</a>
+							<a href="#pablo" class="btn btn-white btn-round btn-cons" style=".btn-white:blue;">Choose Plan</a>
 						</div>
 					</div>
 				</div>
-
 				<div class="col-md-3">
 					<div class="card card-pricing card-plain">
 						<div class="card-content">
@@ -121,5 +128,13 @@
 
 		</div>
 	</div>
+  <div class="ui footer inverted basic segment" style="height:50px;">
+      <div class="ui container">
+        <p style="color:white;">
+          2018 Foodyshark, All Right Reservered.
+        </p>
+      </div>
+    </div>
     </body>
+
 </html>
